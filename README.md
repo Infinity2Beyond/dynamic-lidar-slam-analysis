@@ -4,7 +4,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED.svg)](https://www.docker.com/)
 [![Dataset](https://img.shields.io/badge/Dataset-KITTI_Raw_0009-yellow.svg)](https://www.cvlibs.net/datasets/kitti/)
 ---
-# 0. Execution Guide
+## 0. Execution Guide
 
 Based on the repository structure (`workspace/src/lab_test`), all experimental maps can be generated and visualized using the provided launch files and Python scripts. Follow these steps to reproduce the failure analysis:
 
