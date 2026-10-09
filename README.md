@@ -17,6 +17,7 @@ bash docker/stop.bash
 ```
 
 **0. Dataset Preparation**
+
 Because raw point cloud and ROS bag files exceed GitHub's file size limits, please download and extract the KITTI raw dataset (Drive 0009) before running the pipeline. Run these commands inside your designated data folder:
 ```bash
 wget [https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_calib.zip](https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_calib.zip)
