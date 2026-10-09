@@ -24,9 +24,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-pip \
     python3-rosdep \
     python3-colcon-common-extensions \
+    pcl-tools \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install dufomap dynamic-object-removal open3d pyquaternion
+RUN pip3 install dufomap dynamic-object-removal pyquaternion
 
 RUN usermod -a -G video root
 ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp

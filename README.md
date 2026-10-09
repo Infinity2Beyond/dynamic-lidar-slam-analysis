@@ -1,4 +1,12 @@
-### Docker
+# Dynamic 3D LiDAR SLAM: A Systematic Failure Analysis
+
+[![ROS 2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED.svg)](https://www.docker.com/)
+[![Dataset](https://img.shields.io/badge/Dataset-KITTI_Raw_0009-yellow.svg)](https://www.cvlibs.net/datasets/kitti/)
+---
+# 0. Execution Guide
+
+Based on the repository structure (`workspace/src/lab_test`), all experimental maps can be generated and visualized using the provided launch files and Python scripts. Follow these steps to reproduce the failure analysis:
 
 You can use these commands to build, run, connect to the container, and finally stop it.
 ```
@@ -8,12 +16,85 @@ bash docker/into.bash
 bash docker/stop.bash
 ```
 
-# Dynamic 3D LiDAR SLAM: A Systematic Failure Analysis
+**0. Dataset Preparation**
+Because raw point cloud and ROS bag files exceed GitHub's file size limits, please download and extract the KITTI raw dataset (Drive 0009) before running the pipeline. Run these commands inside your designated data folder:
+```bash
+wget [https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_calib.zip](https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_calib.zip)
+wget [https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0009/2011_09_26_drive_0009_sync.zip](https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0009/2011_09_26_drive_0009_sync.zip)
+unzip 2011_09_26_calib.zip
+unzip 2011_09_26_drive_0009_sync.zip
+```
 
-[![ROS 2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
-[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED.svg)](https://www.docker.com/)
-[![Dataset](https://img.shields.io/badge/Dataset-KITTI_Raw_0009-yellow.svg)](https://www.cvlibs.net/datasets/kitti/)
+**1. Convert the raw dataset into the ROS 2 .mcap format.** 
 
+Ensure that the kitti2mcap package archive (download on https://pypi.org/project/kitti2mcap/) is placed in your workspace/bags directory, then run the following Docker command to execute the conversion seamlessly:
+```
+docker run --rm --network host \
+  -v $(pwd)/workspace/bags:/bags \
+  python:3.11 bash -c "pip install /bags/kitti2mcap-0.1.1.tar.gz && kitti2mcap --date 2011_09_26 --drive 0009 --kitti-dir /bags/kitti_data --output /bags/kitti_dataset.mcap"
+```
+
+**2. Workspace Build & Generate Odometry Baseline (KISS-ICP)**
+
+After preparing the dataset, enter the Docker container, build the ROS 2 workspace, and run the primary odometry engine to generate the raw global map with ghosting artifacts.
+```bash
+# Enter the Docker container
+bash docker/into.bash
+
+# Build the workspace and source the environment
+colcon build
+source install/setup.bash
+
+# Launch KISS-ICP
+ros2 launch lab_test kiss_icp.launch.py
+```
+Extract the Output Files, open the second terminal, enter the container, get into /workspace/src/lab_test/src then choose 1 of these script to run:
+```bash
+# Run the map exporter from kiss-icp script
+python3 map_exporter.py
+
+# Or run the map exporter script with ERASOR
+python3 dynamic_object_removal_map.py
+
+# Or Run the map exporter script with DUFO map
+python3 dufo_map.py
+```
+Open a third terminal, enter the container, and play the .mcap dataset:
+```bash
+# Run the map exporter script
+ros2 bag play /bags/kitti_dataset.mcap --clock
+```
+Once the bag file finishes playing, terminate the map exporter node (using Ctrl+C) in the second terminal. The system will automatically serialize and save the outputs. You can retrieve the specific evaluation files from your output directory:
+
+**3. Generate RTAB MAP**
+
+Similar to the odometry baseline, you will run the RTAB-Map backend and play the dataset to observe the ray-tracing latency and occupancy memory.
+```bash
+# Launch RTABMAP
+ros2 launch lab_test rtabmap_backend.launch.py
+```
+Open the second terminal, enter the container, and run KISS-ICP for publish_odom_tf:
+```bash
+# Launch KISS-ICP
+ros2 launch lab_test kiss_icp.launch.py
+```
+Open a third terminal, enter the container, and play the .mcap dataset:
+```bash
+# Run the map exporter script
+ros2 bag play /bags/kitti_dataset.mcap --clock
+```
+Open a fourth terminal, access rtabmap-database to download the map:
+```bash
+# Access rtabmap database, chooose File, Export 3d map and remember to untick the RGB option
+rtabmap-databaseViewer ~/.ros/rtabmap.db
+```
+
+**4. Viewing the result maps**
+
+All maps will be saved in workspace/results/latest, to view the map, simply use the pcl_viewer tool:
+```bash
+pcl_viewer <path_to_your_file>.pcd
+```
 ---
 
 ## 1. Executive Summary & Research Motivation
