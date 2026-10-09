@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000237] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.000268] (-) JobUnselected: {'identifier': 'kitti_slam'}
+[0.000286] (-) EventReactorShutdown: {}

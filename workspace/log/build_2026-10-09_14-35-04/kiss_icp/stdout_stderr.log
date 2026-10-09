@@ -1,0 +1,7 @@
+[31mCMake Error at /workspace/build/kiss_icp/_deps/sophus-src/CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.24 or higher is required.  You are running version 3.22.1
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/workspace/build/kiss_icp/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:350: cmake_check_build_system] Error 1

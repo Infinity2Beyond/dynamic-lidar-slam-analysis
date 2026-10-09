@@ -1,0 +1,43 @@
+[0.006s] Invoking command in '/workspace/build/lab_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/lab_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/lab_test
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.282s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.315s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.373s] -- Configuring done
+[0.375s] -- Generating done
+[0.376s] -- Build files have been written to: /workspace/build/lab_test
+[0.379s] Invoked command in '/workspace/build/lab_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/lab_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/lab_test
+[0.380s] Invoking command in '/workspace/build/lab_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/lab_test -- -j32 -l32
+[0.407s] Invoked command in '/workspace/build/lab_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/lab_test -- -j32 -l32
+[0.413s] Invoking command in '/workspace/build/lab_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/build/lab_test
+[0.418s] -- Install configuration: ""
+[0.418s] -- Execute custom install script
+[0.418s] -- Symlinking: /workspace/install/lab_test/share/lab_test//launch/kiss_icp.launch.py
+[0.424s] -- Symlinking: /workspace/install/lab_test/share/lab_test//launch/rtabmap_backend.launch.py
+[0.430s] -- Symlinking: /workspace/install/lab_test/share/ament_index/resource_index/package_run_dependencies/lab_test
+[0.436s] -- Symlinking: /workspace/install/lab_test/share/ament_index/resource_index/parent_prefix_path/lab_test
+[0.441s] -- Symlinking: /workspace/install/lab_test/share/lab_test/environment/ament_prefix_path.sh
+[0.446s] -- Symlinking: /workspace/install/lab_test/share/lab_test/environment/ament_prefix_path.dsv
+[0.451s] -- Symlinking: /workspace/install/lab_test/share/lab_test/environment/path.sh
+[0.457s] -- Symlinking: /workspace/install/lab_test/share/lab_test/environment/path.dsv
+[0.462s] -- Symlinking: /workspace/install/lab_test/share/lab_test/local_setup.bash
+[0.467s] -- Symlinking: /workspace/install/lab_test/share/lab_test/local_setup.sh
+[0.473s] -- Symlinking: /workspace/install/lab_test/share/lab_test/local_setup.zsh
+[0.478s] -- Symlinking: /workspace/install/lab_test/share/lab_test/local_setup.dsv
+[0.483s] -- Symlinking: /workspace/install/lab_test/share/lab_test/package.dsv
+[0.489s] -- Symlinking: /workspace/install/lab_test/share/ament_index/resource_index/packages/lab_test
+[0.494s] -- Symlinking: /workspace/install/lab_test/share/lab_test/cmake/lab_testConfig.cmake
+[0.500s] -- Symlinking: /workspace/install/lab_test/share/lab_test/cmake/lab_testConfig-version.cmake
+[0.506s] -- Symlinking: /workspace/install/lab_test/share/lab_test/package.xml
+[0.513s] Invoked command in '/workspace/build/lab_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/build/lab_test

@@ -1,0 +1,1 @@
+/workspace/build/lab_test/ament_cmake_core/lab_testConfig-version.cmake

@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (kiss_icp) JobQueued: {'identifier': 'kiss_icp', 'dependencies': OrderedDict()}
+[0.000474] (kiss_icp) JobStarted: {'identifier': 'kiss_icp'}
+[0.006143] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'cmake'}
+[0.006575] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/kiss-icp/ros', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/kiss_icp'], 'cwd': '/workspace/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nguyen-Legion-R9000P-ARX8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/build/kiss_icp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.073311] (kiss_icp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.078032] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.099869] (-) TimerEvent: {}
+[0.132820] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.136657] (kiss_icp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.136800] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.137078] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199970] (-) TimerEvent: {}
+[0.276375] (kiss_icp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300063] (-) TimerEvent: {}
+[0.361178] (kiss_icp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.394277] (kiss_icp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.400158] (-) TimerEvent: {}
+[0.418250] (kiss_icp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.443467] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.447123] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.452876] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.460563] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.470853] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.495646] (kiss_icp) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.500251] (-) TimerEvent: {}
+[0.507466] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.532752] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.534716] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600344] (-) TimerEvent: {}
+[0.603888] (kiss_icp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.623756] (kiss_icp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.654646] (kiss_icp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.661151] (kiss_icp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.684515] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.21 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.700431] (-) TimerEvent: {}
+[0.703195] (kiss_icp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.713449] (kiss_icp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.23 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.759682] (kiss_icp) StdoutLine: {'line': b'-- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.800517] (-) TimerEvent: {}
+[0.803305] (kiss_icp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.819487] (kiss_icp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.823830] (kiss_icp) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/kiss_icp\n'}
+[0.830436] (kiss_icp) CommandEnded: {'returncode': 0}
+[0.831657] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'build'}
+[0.831684] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/kiss_icp', '--', '-j32', '-l32'], 'cwd': '/workspace/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nguyen-Legion-R9000P-ARX8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/build/kiss_icp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.867498] (kiss_icp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o\x1b[0m\n'}
+[0.867631] (kiss_icp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o\x1b[0m\n'}
+[0.867673] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o\x1b[0m\n'}
+[0.867916] (kiss_icp) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o\x1b[0m\n'}
+[0.867981] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o\x1b[0m\n'}
+[0.868199] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o\x1b[0m\n'}
+[0.868333] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o\x1b[0m\n'}
+[0.900678] (-) TimerEvent: {}
+[1.001112] (-) TimerEvent: {}
+[1.101448] (-) TimerEvent: {}
+[1.201741] (-) TimerEvent: {}
+[1.302031] (-) TimerEvent: {}
+[1.402376] (-) TimerEvent: {}
+[1.502665] (-) TimerEvent: {}
+[1.602955] (-) TimerEvent: {}
+[1.703241] (-) TimerEvent: {}
+[1.803533] (-) TimerEvent: {}
+[1.903803] (-) TimerEvent: {}
+[2.004066] (-) TimerEvent: {}
+[2.104353] (-) TimerEvent: {}
+[2.204650] (-) TimerEvent: {}
+[2.304928] (-) TimerEvent: {}
+[2.405211] (-) TimerEvent: {}
+[2.505516] (-) TimerEvent: {}
+[2.605797] (-) TimerEvent: {}
+[2.706083] (-) TimerEvent: {}
+[2.806403] (-) TimerEvent: {}
+[2.906706] (-) TimerEvent: {}
+[2.946746] (kiss_icp) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable kiss_icp_node\x1b[0m\n'}
+[3.006824] (-) TimerEvent: {}
+[3.015704] (kiss_icp) StdoutLine: {'line': b'[ 57%] Built target kiss_icp_node\n'}
+[3.106932] (-) TimerEvent: {}
+[3.207221] (-) TimerEvent: {}
+[3.307528] (-) TimerEvent: {}
+[3.407843] (-) TimerEvent: {}
+[3.508135] (-) TimerEvent: {}
+[3.608449] (-) TimerEvent: {}
+[3.708756] (-) TimerEvent: {}
+[3.809052] (-) TimerEvent: {}
+[3.909370] (-) TimerEvent: {}
+[4.009665] (-) TimerEvent: {}
+[4.109963] (-) TimerEvent: {}
+[4.210262] (-) TimerEvent: {}
+[4.310560] (-) TimerEvent: {}
+[4.410864] (-) TimerEvent: {}
+[4.511168] (-) TimerEvent: {}
+[4.611474] (-) TimerEvent: {}
+[4.711775] (-) TimerEvent: {}
+[4.789638] (kiss_icp) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX static library libkiss_icp_core.a\x1b[0m\n'}
+[4.811880] (-) TimerEvent: {}
+[4.813471] (kiss_icp) StdoutLine: {'line': b'[ 64%] Built target kiss_icp_core\n'}
+[4.826549] (kiss_icp) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o\x1b[0m\n'}
+[4.912017] (-) TimerEvent: {}
+[5.012307] (-) TimerEvent: {}
+[5.112609] (-) TimerEvent: {}
+[5.212914] (-) TimerEvent: {}
+[5.313229] (-) TimerEvent: {}
+[5.413531] (-) TimerEvent: {}
+[5.513834] (-) TimerEvent: {}
+[5.614130] (-) TimerEvent: {}
+[5.714432] (-) TimerEvent: {}
+[5.814724] (-) TimerEvent: {}
+[5.915014] (-) TimerEvent: {}
+[5.996474] (kiss_icp) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX static library libkiss_icp_pipeline.a\x1b[0m\n'}
+[6.015105] (-) TimerEvent: {}
+[6.017355] (kiss_icp) StdoutLine: {'line': b'[ 78%] Built target kiss_icp_pipeline\n'}
+[6.031110] (kiss_icp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o\x1b[0m\n'}
+[6.115243] (-) TimerEvent: {}
+[6.215531] (-) TimerEvent: {}
+[6.315811] (-) TimerEvent: {}
+[6.416087] (-) TimerEvent: {}
+[6.516395] (-) TimerEvent: {}
+[6.616688] (-) TimerEvent: {}
+[6.716996] (-) TimerEvent: {}
+[6.817264] (-) TimerEvent: {}
+[6.917570] (-) TimerEvent: {}
+[7.017846] (-) TimerEvent: {}
+[7.118108] (-) TimerEvent: {}
+[7.218407] (-) TimerEvent: {}
+[7.318703] (-) TimerEvent: {}
+[7.418987] (-) TimerEvent: {}
+[7.500867] (kiss_icp) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX static library libkiss_icp_metrics.a\x1b[0m\n'}
+[7.519096] (-) TimerEvent: {}
+[7.521874] (kiss_icp) StdoutLine: {'line': b'[ 92%] Built target kiss_icp_metrics\n'}
+[7.619218] (-) TimerEvent: {}
+[7.719471] (-) TimerEvent: {}
+[7.819737] (-) TimerEvent: {}
+[7.920012] (-) TimerEvent: {}
+[8.020289] (-) TimerEvent: {}
+[8.120550] (-) TimerEvent: {}
+[8.220846] (-) TimerEvent: {}
+[8.321116] (-) TimerEvent: {}
+[8.421420] (-) TimerEvent: {}
+[8.521688] (-) TimerEvent: {}
+[8.621984] (-) TimerEvent: {}
+[8.722254] (-) TimerEvent: {}
+[8.822525] (-) TimerEvent: {}
+[8.922812] (-) TimerEvent: {}
+[9.023062] (-) TimerEvent: {}
+[9.123367] (-) TimerEvent: {}
+[9.223661] (-) TimerEvent: {}
+[9.323929] (-) TimerEvent: {}
+[9.424232] (-) TimerEvent: {}
+[9.524514] (-) TimerEvent: {}
+[9.624803] (-) TimerEvent: {}
+[9.725084] (-) TimerEvent: {}
+[9.825372] (-) TimerEvent: {}
+[9.925670] (-) TimerEvent: {}
+[10.025945] (-) TimerEvent: {}
+[10.126243] (-) TimerEvent: {}
+[10.226534] (-) TimerEvent: {}
+[10.326789] (-) TimerEvent: {}
+[10.427087] (-) TimerEvent: {}
+[10.527370] (-) TimerEvent: {}
+[10.627652] (-) TimerEvent: {}
+[10.727909] (-) TimerEvent: {}
+[10.828217] (-) TimerEvent: {}
+[10.928522] (-) TimerEvent: {}
+[11.028790] (-) TimerEvent: {}
+[11.129078] (-) TimerEvent: {}
+[11.229331] (-) TimerEvent: {}
+[11.329574] (-) TimerEvent: {}
+[11.429819] (-) TimerEvent: {}
+[11.530083] (-) TimerEvent: {}
+[11.630347] (-) TimerEvent: {}
+[11.730582] (-) TimerEvent: {}
+[11.830839] (-) TimerEvent: {}
+[11.931118] (-) TimerEvent: {}
+[12.031366] (-) TimerEvent: {}
+[12.131630] (-) TimerEvent: {}
+[12.231897] (-) TimerEvent: {}
+[12.332157] (-) TimerEvent: {}
+[12.432414] (-) TimerEvent: {}
+[12.532653] (-) TimerEvent: {}
+[12.632938] (-) TimerEvent: {}
+[12.733207] (-) TimerEvent: {}
+[12.833449] (-) TimerEvent: {}
+[12.933719] (-) TimerEvent: {}
+[13.033965] (-) TimerEvent: {}
+[13.134232] (-) TimerEvent: {}
+[13.234481] (-) TimerEvent: {}
+[13.334730] (-) TimerEvent: {}
+[13.434989] (-) TimerEvent: {}
+[13.535238] (-) TimerEvent: {}
+[13.635491] (-) TimerEvent: {}
+[13.735738] (-) TimerEvent: {}
+[13.835986] (-) TimerEvent: {}
+[13.936247] (-) TimerEvent: {}
+[14.036488] (-) TimerEvent: {}
+[14.136736] (-) TimerEvent: {}
+[14.236980] (-) TimerEvent: {}
+[14.337227] (-) TimerEvent: {}
+[14.437449] (-) TimerEvent: {}
+[14.537672] (-) TimerEvent: {}
+[14.637906] (-) TimerEvent: {}
+[14.738126] (-) TimerEvent: {}
+[14.838390] (-) TimerEvent: {}
+[14.938628] (-) TimerEvent: {}
+[15.038857] (-) TimerEvent: {}
+[15.139098] (-) TimerEvent: {}
+[15.239335] (-) TimerEvent: {}
+[15.339571] (-) TimerEvent: {}
+[15.439812] (-) TimerEvent: {}
+[15.540048] (-) TimerEvent: {}
+[15.640264] (-) TimerEvent: {}
+[15.740471] (-) TimerEvent: {}
+[15.840715] (-) TimerEvent: {}
+[15.940962] (-) TimerEvent: {}
+[16.041229] (-) TimerEvent: {}
+[16.141473] (-) TimerEvent: {}
+[16.241729] (-) TimerEvent: {}
+[16.341994] (-) TimerEvent: {}
+[16.360277] (kiss_icp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libodometry_component.so\x1b[0m\n'}
+[16.442111] (-) TimerEvent: {}
+[16.489817] (kiss_icp) StdoutLine: {'line': b'[100%] Built target odometry_component\n'}
+[16.497824] (kiss_icp) CommandEnded: {'returncode': 0}
+[16.498223] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'install'}
+[16.504558] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/kiss_icp'], 'cwd': '/workspace/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nguyen-Legion-R9000P-ARX8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/build/kiss_icp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.509047] (kiss_icp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[16.509563] (kiss_icp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.509772] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/lib/kiss_icp/kiss_icp_node\n'}
+[16.515674] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/lib/libodometry_component.so\n'}
+[16.521676] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py\n'}
+[16.526940] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz\n'}
+[16.532160] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp//config/config.yaml\n'}
+[16.537521] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp\n'}
+[16.542180] (-) TimerEvent: {}
+[16.542902] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp\n'}
+[16.550643] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh\n'}
+[16.556284] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv\n'}
+[16.561583] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/environment/path.sh\n'}
+[16.567283] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/environment/path.dsv\n'}
+[16.572510] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/local_setup.bash\n'}
+[16.577860] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/local_setup.sh\n'}
+[16.584148] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/local_setup.zsh\n'}
+[16.589730] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/local_setup.dsv\n'}
+[16.594967] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/package.dsv\n'}
+[16.600209] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp\n'}
+[16.605473] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp\n'}
+[16.610852] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake\n'}
+[16.616570] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake\n'}
+[16.621976] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /workspace/install/kiss_icp/share/kiss_icp/package.xml\n'}
+[16.629132] (kiss_icp) CommandEnded: {'returncode': 0}
+[16.639127] (kiss_icp) JobEnded: {'identifier': 'kiss_icp', 'rc': 0}
+[16.639483] (-) EventReactorShutdown: {}

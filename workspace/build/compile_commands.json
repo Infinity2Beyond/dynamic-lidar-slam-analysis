@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/workspace/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/workspace/src/kiss-icp/cpp/kiss_icp/core -I/workspace/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Registration.cpp.o -c /workspace/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp",
+  "file": "/workspace/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp"
+},
+{
+  "directory": "/workspace/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/workspace/src/kiss-icp/cpp/kiss_icp/core -I/workspace/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o -c /workspace/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp",
+  "file": "/workspace/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp"
+},
+{
+  "directory": "/workspace/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/workspace/src/kiss-icp/cpp/kiss_icp/core -I/workspace/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o -c /workspace/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp",
+  "file": "/workspace/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp"
+},
+{
+  "directory": "/workspace/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/workspace/src/kiss-icp/cpp/kiss_icp/core -I/workspace/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o -c /workspace/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp",
+  "file": "/workspace/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp"
+},
+{
+  "directory": "/workspace/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/workspace/src/kiss-icp/cpp/kiss_icp/core -I/workspace/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o -c /workspace/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp",
+  "file": "/workspace/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp"
+},
+{
+  "directory": "/workspace/build/kiss_icp/kiss_icp/metrics",
+  "command": "/usr/bin/c++  -I/workspace/src/kiss-icp/cpp/kiss_icp/metrics -I/workspace/src/kiss-icp/cpp -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o -c /workspace/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp",
+  "file": "/workspace/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp"
+},
+{
+  "directory": "/workspace/build/kiss_icp/kiss_icp/pipeline",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/workspace/src/kiss-icp/cpp/kiss_icp/pipeline -I/workspace/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o -c /workspace/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp",
+  "file": "/workspace/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp"
+}
+]

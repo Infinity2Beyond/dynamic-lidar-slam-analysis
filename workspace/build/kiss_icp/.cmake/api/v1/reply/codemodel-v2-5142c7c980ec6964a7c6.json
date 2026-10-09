@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1c1d866fcc352b048a93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "kiss_icp",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-kiss_icp-Release-a61626ecd0bce349a164.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/workspace/src/kiss-icp/cpp/kiss_icp"
+				},
+				{
+					"build" : "kiss_icp/core",
+					"jsonFile" : "directory-kiss_icp.core-Release-4ffc083862dcf86a9703.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/workspace/src/kiss-icp/cpp/kiss_icp/core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "kiss_icp/metrics",
+					"jsonFile" : "directory-kiss_icp.metrics-Release-c3263934f35defbf20da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/workspace/src/kiss-icp/cpp/kiss_icp/metrics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "kiss_icp/pipeline",
+					"jsonFile" : "directory-kiss_icp.pipeline-Release-e3b659264a390f757cb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/workspace/src/kiss-icp/cpp/kiss_icp/pipeline",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kiss_icp",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "kiss_icp_cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "kiss_icp_core::@f15dea1d0e2072c61095",
+					"jsonFile" : "target-kiss_icp_core-Release-c8b742a694bed90f52b5.json",
+					"name" : "kiss_icp_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kiss_icp_metrics::@83fde38ab14997601bd9",
+					"jsonFile" : "target-kiss_icp_metrics-Release-6ea14576534a5fd30335.json",
+					"name" : "kiss_icp_metrics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_node-Release-8e453d69c0c875b7bf2d.json",
+					"name" : "kiss_icp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kiss_icp_pipeline::@4dfa1c09646d329e3f37",
+					"jsonFile" : "target-kiss_icp_pipeline-Release-39302479e8d09a12c57b.json",
+					"name" : "kiss_icp_pipeline",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_uninstall-Release-0a76ea15df62e0e60eda.json",
+					"name" : "kiss_icp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odometry_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odometry_component-Release-69848f98e39b3a70f697.json",
+					"name" : "odometry_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-171d67916e5ee316b468.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/build/kiss_icp",
+		"source" : "/workspace/src/kiss-icp/ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

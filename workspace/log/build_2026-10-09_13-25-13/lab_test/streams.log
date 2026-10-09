@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/workspace/build/lab_test': CMAKE_PREFIX_PATH=/workspace/install/kiss_icp:/workspace/install/lab_test:/opt/ros/humble /usr/bin/cmake --build /workspace/build/lab_test -- -j32 -l32
+[0.034s] Invoked command in '/workspace/build/lab_test' returned '0': CMAKE_PREFIX_PATH=/workspace/install/kiss_icp:/workspace/install/lab_test:/opt/ros/humble /usr/bin/cmake --build /workspace/build/lab_test -- -j32 -l32
+[0.040s] Invoking command in '/workspace/build/lab_test': CMAKE_PREFIX_PATH=/workspace/install/kiss_icp:/workspace/install/lab_test:/opt/ros/humble /usr/bin/cmake --install /workspace/build/lab_test
+[0.044s] -- Install configuration: ""
+[0.045s] -- Execute custom install script
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test//launch/kiss_icp.launch.py
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test//launch/rtabmap_backend.launch.py
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/ament_index/resource_index/package_run_dependencies/lab_test
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/ament_index/resource_index/parent_prefix_path/lab_test
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/ament_prefix_path.sh
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/ament_prefix_path.dsv
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/path.sh
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/path.dsv
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.bash
+[0.045s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.sh
+[0.046s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.zsh
+[0.046s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.dsv
+[0.046s] -- Symlinking: /workspace/install/lab_test/share/lab_test/package.dsv
+[0.052s] -- Up-to-date symlink: /workspace/install/lab_test/share/ament_index/resource_index/packages/lab_test
+[0.052s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/cmake/lab_testConfig.cmake
+[0.052s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/cmake/lab_testConfig-version.cmake
+[0.052s] -- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/package.xml
+[0.053s] Invoked command in '/workspace/build/lab_test' returned '0': CMAKE_PREFIX_PATH=/workspace/install/kiss_icp:/workspace/install/lab_test:/opt/ros/humble /usr/bin/cmake --install /workspace/build/lab_test

@@ -1,0 +1,19 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test//launch/kiss_icp.launch.py
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test//launch/rtabmap_backend.launch.py
+-- Up-to-date symlink: /workspace/install/lab_test/share/ament_index/resource_index/package_run_dependencies/lab_test
+-- Up-to-date symlink: /workspace/install/lab_test/share/ament_index/resource_index/parent_prefix_path/lab_test
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/path.sh
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/environment/path.dsv
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.bash
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.sh
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.zsh
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/local_setup.dsv
+-- Symlinking: /workspace/install/lab_test/share/lab_test/package.dsv
+-- Up-to-date symlink: /workspace/install/lab_test/share/ament_index/resource_index/packages/lab_test
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/cmake/lab_testConfig.cmake
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/cmake/lab_testConfig-version.cmake
+-- Up-to-date symlink: /workspace/install/lab_test/share/lab_test/package.xml

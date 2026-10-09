@@ -1,0 +1,9 @@
+[0.008s] Invoking command in '/workspace/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/kiss_icp -- -j32 -l32
+[1.125s] [31mCMake Error at /workspace/build/kiss_icp/_deps/sophus-src/CMakeLists.txt:1 (cmake_minimum_required):
+[1.125s]   CMake 3.24 or higher is required.  You are running version 3.22.1
+[1.125s] 
+[1.126s] [0m
+[1.126s] -- Configuring incomplete, errors occurred!
+[1.126s] See also "/workspace/build/kiss_icp/CMakeFiles/CMakeOutput.log".
+[1.127s] gmake: *** [Makefile:350: cmake_check_build_system] Error 1
+[1.129s] Invoked command in '/workspace/build/kiss_icp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/kiss_icp -- -j32 -l32

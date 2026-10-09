@@ -1,0 +1,2 @@
+Invoking command in '/workspace/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/kiss_icp -- -j32 -l32
+Invoked command in '/workspace/build/kiss_icp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/kiss_icp -- -j32 -l32
