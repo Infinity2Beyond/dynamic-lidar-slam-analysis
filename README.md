@@ -42,6 +42,9 @@ After preparing the dataset, enter the Docker container, build the ROS 2 workspa
 # Enter the Docker container
 bash docker/into.bash
 
+# Clone the KISS-ICP repo
+git clone https://github.com/PRBonn/kiss-icp.git
+
 # Build the workspace and source the environment
 colcon build
 source install/setup.bash
